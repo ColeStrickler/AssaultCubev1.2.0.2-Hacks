@@ -81,9 +81,9 @@ DWORD WINAPI HackThread(HMODULE hModule) {
 			}
 			else {
 				mem::Patch((BYTE*)(moduleBase + 0x5bF00), (BYTE*)"\xb8\x02\x00\x00\x00", 5);
-				mem::Patch((BYTE*)(moduleBase + 0x5bF60), (BYTE*)"\xb8\xff\xff\xff\xff", 5);
+				mem::Patch((BYTE*)(moduleBase + 0x5bF60), (BYTE*)"\xb8\xfe\xff\xff\xff", 5);
 				mem::Patch((BYTE*)(moduleBase + 0x5bea0), (BYTE*)"\xb8\x02\x00\x00\x00", 5);
-				mem::Patch((BYTE*)(moduleBase + 0x5be40), (BYTE*)"\xb8\xff\xff\xff\xff", 5);
+				mem::Patch((BYTE*)(moduleBase + 0x5be40), (BYTE*)"\xb8\xfe\xff\xff\xff", 5);
 			}
 		}
 		if (GetAsyncKeyState(VK_NUMPAD7) & 1) {

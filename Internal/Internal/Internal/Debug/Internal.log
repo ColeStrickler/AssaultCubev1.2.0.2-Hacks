@@ -1,2 +1,16 @@
 ﻿  dllmain.cpp
-  Internal.vcxproj -> C:\Users\Cole\Documents\C++\Internal\Internal\Debug\Internal.dll
+  esp.cpp
+C:\Users\Cole\Documents\C++\AssaultCube\Internal\Internal\Internal\esp.cpp(127,33): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Cole\Documents\C++\AssaultCube\Internal\Internal\Internal\esp.cpp(176,82): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Cole\Documents\C++\AssaultCube\Internal\Internal\Internal\esp.cpp(176,70): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Cole\Documents\C++\AssaultCube\Internal\Internal\Internal\esp.cpp(176,66): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Cole\Documents\C++\AssaultCube\Internal\Internal\Internal\esp.cpp(176,49): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Cole\Documents\C++\AssaultCube\Internal\Internal\Internal\esp.cpp(183,54): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Cole\Documents\C++\AssaultCube\Internal\Internal\Internal\esp.cpp(183,43): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Cole\Documents\C++\AssaultCube\Internal\Internal\Internal\esp.cpp(189,56): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Cole\Documents\C++\AssaultCube\Internal\Internal\Internal\esp.cpp(189,45): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Cole\Documents\C++\AssaultCube\Internal\Internal\Internal\esp.cpp(202): warning C4715: 'esp': not all control paths return a value
+  mem.cpp
+  proc.cpp
+  stdafx.cpp
+  Internal.vcxproj -> C:\Users\Cole\Documents\C++\AssaultCube\Internal\Internal\Debug\Internal.dll
